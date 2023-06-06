@@ -1,2 +1,2 @@
-# Proyecto---Equipo-8
+#Equipo-8
 Aplicativo de Desarrollo Web
