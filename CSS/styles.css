@@ -4,16 +4,21 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Raleway;
 }
 
 @font-face{
-    font-family:'secundaria';
-    src: url('Raleway-VariableFont_wght.ttf');
+    font-family: Raleway;
+    src: url("TIPOGRAFÍAS\Raleway\Raleway-VariableFont_wght.ttf");
 }
 
-@font-face {
-    font-family:'encabezado';
-    src: url('KaiseiTokumin-Regular.ttf');
+@font-face{
+    font-family: Kaisei;
+    src: url("TIPOGRAFÍAS\Kaisei_Tokumin\KaiseiTokumin-Regular.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Kaisei;
 }
 
 header{
@@ -31,12 +36,12 @@ header{
 
 .navegacion li{
     display: inline;
-    margin: 8px; 
+    margin: 2px; 
 }
 
 .navegacion a{
     color: #F2EDDC;
-    font-size: 18px;
+    font-size: 16px;
     padding: 7px 13px;
 }
   
