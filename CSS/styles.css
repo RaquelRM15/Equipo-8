@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Kaisei;
 }
 
+p {
+    font-family: Raleway;
+}
+
 header{
     background-image: linear-gradient(#222604 30%, #000000 70%);
 }
@@ -78,3 +82,88 @@ li a:hover {
     vertical-align: middle;
 
 }
+
+.image-container {
+    width: 1365px; /* Ancho de la imagen */
+    height: 800px; /* Altura de la imagen */
+    background-image: url(/IMÁGENES/Rectangle\ 8.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.principal__busqueda {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    text-align: center;
+}
+
+.principal__busqueda >img {
+    width: 60%;
+    height: 10%;
+}
+.principal_titulo {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #F2EDDC;
+}
+
+.principal_titulo h1 {
+    font-size: 70px;
+    font-weight: bold; /* Fuente en negrita */
+    padding-left: 10px; /* Espacio para el sombreado izquierdo */
+    text-shadow: -7px 0 2px rgba(0, 0, 0, 0.5); /* Sombreado izquierdo */
+}
+
+.presentacion_texto {
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    text-align: center;
+    color: #F2EDDC;
+}
+
+.tusproductos {
+    width: 1365px; /* Ancho de la imagen */
+    height: 1000px; /* Altura de la imagen */
+    background-image: url(/IMÁGENES/FondoDos.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.categorias {
+        width: 1365px; /* Ancho de la imagen */
+        height: 800px; /* Altura de la imagen */
+        background-image: url(/IMÁGENES/FondoTres.svg);
+        background-size: cover;
+        background-position: center center;
+}
+
+.marcas {
+    width: 1365px; /* Ancho de la imagen */
+    height: 800px; /* Altura de la imagen */
+    background-image: url(/IMÁGENES/FondoCuatro.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.productores {
+    width: 1365px; /* Ancho de la imagen */
+    height: 800px; /* Altura de la imagen */
+    background-image: url(/IMÁGENES/FondoCinco.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.clientes {
+    width: 1365px; /* Ancho de la imagen */
+    height: 800px; /* Altura de la imagen */
+    background-image: url(/IMÁGENES/FondoSeis.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
