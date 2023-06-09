@@ -9,12 +9,7 @@
 
 @font-face{
     font-family: Raleway;
-    src: url("TIPOGRAFÍAS\Raleway\Raleway-VariableFont_wght.ttf");
-}
-
-@font-face{
-    font-family: Kaisei;
-    src: url("TIPOGRAFÍAS\Kaisei_Tokumin\KaiseiTokumin-Regular.ttf");
+    src: url("../TIPOGRAFÍAS/Raleway/Raleway-VariableFont_wght.ttf");
 }
 
 body{
